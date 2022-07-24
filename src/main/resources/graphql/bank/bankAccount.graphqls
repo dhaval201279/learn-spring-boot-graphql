@@ -1,0 +1,7 @@
+type BankAccount {
+    id: ID!
+    #name: String!
+    client: Client # Client Resolver
+    currency: Currency!
+    assets: [Asset]
+}

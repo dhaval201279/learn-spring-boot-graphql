@@ -1,0 +1,4 @@
+# This will be visible in online documentation
+type Query {
+    bankAccount(id: ID) : BankAccount
+}
